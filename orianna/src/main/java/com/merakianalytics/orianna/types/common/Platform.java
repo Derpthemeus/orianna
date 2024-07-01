@@ -24,7 +24,8 @@ public enum Platform {
     SINGAPORE("SG2", "en_SG", "SEA"),
     THAILAND("TH2", "th_TH", "SEA"),
     TAIWAN("TW2", "zh_TW", "SEA"),
-    VIETNAM("VN2", "vn_VN", "SEA");
+    VIETNAM("VN2", "vn_VN", "SEA"),
+    MIDDLE_EAST_NORTH_AFRICA("ME1", "ar_AE", "EUROPE");
 
     private static final java.util.Map<String, Platform> BY_TAG = getByTag();
 

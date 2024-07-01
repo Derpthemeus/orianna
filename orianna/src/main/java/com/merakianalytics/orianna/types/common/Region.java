@@ -22,7 +22,8 @@ public enum Region {
         SINGAPORE("SG", "en_SG"),
         THAILAND("TH", "th_TH"),
         TAIWAN("TW", "zh_TW"),
-        VIETNAM("VN", "vn_VN");
+        VIETNAM("VN", "vn_VN"),
+        MIDDLE_EAST_NORTH_AFRICA("MENA", "ar_AE");
 
     private final String defaultLocale;
     private final String tag;
